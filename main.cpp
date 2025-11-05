@@ -198,7 +198,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
                 std::cout << "Config is saved." << std::endl;
                 return 0;
             } else {
-                setMovement(devicePath, raw);
+                setMovement(trackpointDevicePath, raw);
             }
 
             // Debug: Output device path and type
